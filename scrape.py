@@ -9,7 +9,8 @@ from datetime import datetime # this will let us access current time
 sched = BlockingScheduler();
 
 def main():
-    phoneNumber = 5126578867
+    # vv enter in your phone number here vv
+    phoneNumber = 1234567890
     # return list to append values in message to
     ret = []
     # get url for the page somehow here. use datetime to calculate the week
